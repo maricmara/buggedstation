@@ -23,10 +23,13 @@ public class GameController : MonoBehaviour
     {
         
     }
-    public void UpdateScoreText()
+    public void UpdateScoreTextM()
     {
         ScoreTextM.text = totalScoreM.ToString();
-        ScoreTextC.text = totalScoreC.ToString();
+        
 
+    }
+    public void UpdateScoreTextC(){
+        ScoreTextC.text = totalScoreC.ToString();
     }
 }

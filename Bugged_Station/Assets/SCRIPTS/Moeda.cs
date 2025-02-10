@@ -26,8 +26,8 @@ public class Moeda : MonoBehaviour
             sr.enabled = false;
             circle.enabled = false;
             
-            GameController.instance.totalScoreM += score;
-            GameController.instance.UpdateScoreText();
+            GameController.instance.totalScoreM += scoreM;
+            GameController.instance.UpdateScoreTextM();
 
             Destroy(gameObject, 0.25f);
         }

@@ -25,8 +25,8 @@ public class Coletar : MonoBehaviour
             sr.enabled = false;
             circle.enabled = false;
             
-            GameController.instance.totalScoreC += score;
-            GameController.instance.UpdateScoreText();
+            GameController.instance.totalScoreC += scoreC;
+            GameController.instance.UpdateScoreTextC();
 
             Destroy(gameObject, 0.25f);
         }
