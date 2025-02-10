@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class coletar : MonoBehaviour
+public class Coletar : MonoBehaviour
 {
     private SpriteRenderer sr;
     private CircleCollider2D circle;
