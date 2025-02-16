@@ -448,8 +448,8 @@ GameObject:
   - component: {fileID: 256886244}
   - component: {fileID: 256886243}
   - component: {fileID: 256886242}
-  - component: {fileID: 256886245}
   - component: {fileID: 256886246}
+  - component: {fileID: 256886247}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Player
@@ -569,22 +569,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &256886245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256886241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90642ff2400a36c4ebaa60e8a15f4f39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 10
-  JumpForce: 5
-  isJumping: 0
-  doubleJump: 0
 --- !u!50 &256886246
 Rigidbody2D:
   serializedVersion: 4
@@ -612,6 +596,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &256886247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256886241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264d24bed96e042488f810bc945efae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 10
 --- !u!1 &360721085
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,7 +783,7 @@ GameObject:
   - component: {fileID: 685932205}
   m_Layer: 0
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
