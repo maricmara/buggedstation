@@ -22,13 +22,14 @@ public class Coletar : MonoBehaviour
     {
         if(collider.gameObject.tag == "Player")
         {
+             Destroy(gameObject, 0.25f);
             sr.enabled = false;
             circle.enabled = false;
             
             GameController.instance.totalScoreC += scoreC;
             GameController.instance.UpdateScoreTextC();
 
-            Destroy(gameObject, 0.25f);
+            //Destroy(gameObject, 0.25f);
         }
     }
     
