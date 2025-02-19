@@ -262,7 +262,7 @@ Transform:
   m_GameObject: {fileID: 73419249}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.99, y: -2.02, z: 0}
+  m_LocalPosition: {x: 2.86, y: -2.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -627,7 +627,7 @@ Transform:
   m_GameObject: {fileID: 264223013}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.49, y: -2.01, z: 0}
+  m_LocalPosition: {x: -2.61, y: -2.01, z: 0}
   m_LocalScale: {x: 0.183582, y: 0.18938585, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -958,7 +958,7 @@ GameObject:
   - component: {fileID: 683704027}
   - component: {fileID: 683704030}
   m_Layer: 0
-  m_Name: NextLevelPoint
+  m_Name: NextLevel
   m_TagString: NextLevelPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -976,7 +976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82f17c3af2374f743b5e3a0925cabc72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lvlName: lvl 1
+  lvlName: lvl4
 --- !u!212 &683704028
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1038,7 +1038,7 @@ Transform:
   m_GameObject: {fileID: 683704026}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.31, y: -3.07, z: 0}
+  m_LocalPosition: {x: 9.05, y: -2.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
