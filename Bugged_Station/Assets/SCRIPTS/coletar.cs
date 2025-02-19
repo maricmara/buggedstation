@@ -29,7 +29,7 @@ public class Coletar : MonoBehaviour
             GameController.instance.totalScoreC += scoreC;
             GameController.instance.UpdateScoreTextC();
 
-            //Destroy(gameObject, 0.25f);
+            
         }
     }
     
