@@ -7,8 +7,8 @@ public class NextLevelPoint : MonoBehaviour
 {
     public string lvlName;
 
-    void OnCollisionEnter2D(Collision2D collision){
-        if(collision.gameObject.tag == "Player"){
+    void OnTriggerEnter2D(Collider2D collider){
+        if(collider.gameObject.tag == "Player"){
             SceneManager.LoadScene(lvlName);
         }
     }
