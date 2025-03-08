@@ -5,10 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float Speed;
-    public float JumpForce;
 
-    public bool isJumping;
-    public bool doubleJump;
     private Rigidbody2D rig;
 
     private Animator anim;
@@ -23,7 +20,6 @@ public class Player : MonoBehaviour
     void Update()
     {
         Move();
-        Jump();
     }
     void Move(){
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
@@ -48,25 +44,5 @@ public class Player : MonoBehaviour
         }
     }
 */
-    void Jump(){
-        if(Input.GetButtonDown("Jump"))
-        {
-            if(!isJumping)
-            {
-                rig.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
-                doubleJump = true;
-                anim.SetBool("jump",true);
-            }
-            else
-            {
-                if(doubleJump)
-            {
-                rig.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
-                doubleJump = false;
-            }
-
-            }
-        }
-    }
-    }
+}
 
